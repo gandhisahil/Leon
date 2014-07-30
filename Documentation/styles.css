@@ -1,0 +1,79 @@
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+body,div,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,img,form,fieldset,input,textarea,blockquote
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	color: #5a5a5a;
+	font-family: Lato;
+	background-image: url('../img/bg1.png');
+	background-repeat: repeat;
+	font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,sans-serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	line-height: 20px;
+	letter-spacing: 1px;
+}
+
+a {
+	color: #51749f;
+	text-decoration: none;
+}
+.voltaire{
+    font-weight: 300;
+	font-family: "Voltaire";
+}
+.text-center{
+    text-align: center;
+}
+body h1,body h2,body h3,body h4,body h5,body h6 {
+	font-family: Lato;
+	text-transform: uppercase;
+	/* font-weight: normal; */
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -1px;
+}
+.title {
+	color: #51749F;
+	padding: 20px;
+	font-weight: 300;	
+	text-align: center;
+}
+.text-left{
+    text-align: left;
+    padding-left: 0px;
+}
+a:hover {
+	color: #274a76;
+	
+}
+
+#logo,.navbar a,#footer>.container p {
+	font-weight: 300;
+	font-family: 'Voltaire', sans-serif;
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+	text-transform: uppercase;
+}
+
+/* BACK TO TOP */
+#back-top {
+	text-decoration: none;
+}
+
+/* CONTENT */
+.content-wrapper .container {
+	padding: 40px;
+}
+
+.content-wrapper p {
+	margin-right: 20px;
+	margin-left: 20px;
+	float: centre;
+}
+
